@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    max-width: 100% !important;
+	  width: 100% !important;
+    overflow:hidden !important;
+    background-color: black;
+}
+
+.morpion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    border: 1em solid white;
+}
+h1 {
+    font-size: 5vh;
+    margin-bottom: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+img {
+    width: 8vw;
+}
+input[type="button"] {
+    margin-top: 5vh ;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: black;
+    border: 0.2em solid white;
+    border-radius: 100px;
+    font-size: 3vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    h1 {
+        font-size: 5vh;
+        margin-bottom: 5vh;
+    }
+    img {
+        width: 25vw;
+    }
+    input[type="button"] {
+        margin-top: 5vh ;
+        font-size: 2vh;
+    }
+}
+@media screen and (max-width: 767px) {
+  h1 {
+      font-size: 5vh;
+      margin-bottom: 5vh;
+  }
+  img {
+      width: 25vw;
+  }
+  input[type="button"] {
+      margin-top: 5vh ;
+      font-size: 2vh;
+  }
+}
